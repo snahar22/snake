@@ -36,7 +36,6 @@ ctx.fillStyle = "#ffffff";
 ctx.font = "20px Arial";
 ctx.fillText(score, 20 , 575);
 
-//SNAKE
 ctx.fillStyle = "blue";
 for(let i = 0; i < trail.length; i++){
 ctx.strokeRect(
